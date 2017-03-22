@@ -1,0 +1,730 @@
+body {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.featureImg {
+    padding-bottom: 15px;
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.mt2 {
+    margin-top: 20px;
+}
+
+.pt {
+    padding-top: 10px;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.text-indent {
+    padding-left: 1em;
+}
+
+/* Video Start*/
+#myvideo{}
+
+.video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -50000;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/* Video End */
+
+.paddingtonbear {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Fonts */
+.play {
+    font-family: 'Play', sans-serif, serif;}
+
+.jura {
+    font-family: 'Jura', sans-serif, serif;}
+
+
+
+/* Text Overwrite */
+
+.lt {
+    text-align: left;
+}
+
+.rt {
+    text-align: right;
+}
+
+.ct {
+    text-align: center;}
+
+
+#wt {
+    color: white;
+    text-decoration-color: white;
+    font-size: 15px;
+}
+
+#wt20 {
+    color: white;
+    text-decoration-color: white;
+    font-size: 20px;
+}
+
+#wtbig {
+    color: white;
+    text-decoration-color: white;
+    font-size: 35px;
+}
+
+#wt:hover {
+    color: white;
+    text-decoration-color: white;
+}
+
+#bt {
+    color: black;}
+
+#bt:hover {
+    color: black;
+    text-decoration-color: black;}
+
+#tt {
+    color: black;
+    border: solid 4px black;
+    background: white;}
+
+#tt2:hover {
+    color: black;
+    text-decoration-color: black;
+    border: solid 4px black;
+    background: white;
+    margin-top:10px;}
+
+#tt2 {
+    color: black;
+    border: solid 4px black;
+    background: white;
+    margin-top:10px;}
+
+#tt:hover {
+    color: black;
+    text-decoration-color: black;
+    border: solid 4px black;
+    background: white;}
+
+#nh {
+    background: white;}
+
+#nh:hover {
+    background: white;}
+
+.kylemarg {
+    margin-top: 20px;}
+
+
+
+
+/*     button Papa    */
+
+.btn-papa {
+  color: #ffffff;
+  background-color: #001;
+  border-color: #fff;
+}
+.btn-papa:focus,
+.btn-papa.focus {
+  color: #ffffff;
+  background-color: #000;
+  border-color: #fff;
+}
+.btn-papa:hover {
+  color: #ffffff;
+  background-color: #333;
+  border-color: #fff;
+}
+.btn-papa:active,
+.btn-papa.active,
+.open > .dropdown-toggle.btn-papa {
+  color: #ffffff;
+  background-color: #777;
+  border-color: #fff;
+}
+.btn-papa:active:hover,
+.btn-papa.active:hover,
+.open > .dropdown-toggle.btn-papa:hover,
+.btn-papa:active:focus,
+.btn-papa.active:focus,
+.open > .dropdown-toggle.btn-papa:focus,
+.btn-papa:active.focus,
+.btn-papa.active.focus,
+.open > .dropdown-toggle.btn-papa.focus {
+  color: #ffffff;
+  background-color: #fff;
+  border-color: #fff;
+}
+.btn-papa:active,
+.btn-papa.active,
+.open > .dropdown-toggle.btn-papa {
+  background-image: none;
+}
+.btn-papa.disabled:hover,
+.btn-papa[disabled]:hover,
+fieldset[disabled] .btn-papa:hover,
+.btn-papa.disabled:focus,
+.btn-papa[disabled]:focus,
+fieldset[disabled] .btn-papa:focus,
+.btn-papa.disabled.focus,
+.btn-papa[disabled].focus,
+fieldset[disabled] .btn-papa.focus {
+
+  background-color: #000;
+  border-color: #fff;
+}
+.btn-papa .badge {
+  color: #000;
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+/* Backgrounds */
+
+#fade {
+    border: solid 4px black;
+    border-radius: 20px;
+    background color:rgb(255, 255, 255) transparent;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+#fade2 {
+    border: solid 4px black;
+    background color:rgb(255, 255, 255) transparent;
+    background: rgba(255, 255, 255, 0.99);
+}
+
+#parallaxlogin {
+    border: solid 4px black;
+    background-image: url(assets/goals/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxloginfoot {
+    border: solid 4px black;
+    background-image: url(assets/goals/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+
+#parallax1 {
+    border: solid 4px black;
+    border-radius: 20px;
+    background-image: url(assets/background%20test%20water.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#parallax2 {
+    border: solid 4px black;
+    border-radius: 20px;
+    background-image: url(assets/background%20test%20water.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#parallax3 {
+    border: solid 4px black;
+    border-radius: 20px;
+    background-image: url(assets/background%20test%20water.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#parallax4 {
+    border: solid 4px black;
+    border-radius: 20px;
+    background-image: url(assets/background%20test%20water.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#parallaxfoot {
+    border: solid 4px black;
+    background-image: url(assets/background%20test%20water.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+
+#parallaxfire {
+    border: solid 4px black;
+    background-image: url(assets/interest%20new/isleofwight.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxfirefoot {
+    border: solid 4px black;
+    background-image: url(assets/interest%20new/isleofwight.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+
+#parallaxsurv {
+    border: solid 4px black;
+    background-image: url(assets/survival%20new/du%20cyprus%20dam.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxsurvfoot {
+    border: solid 4px black;
+    background-image: url(assets/survival%20new/du%20cyprus%20dam.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+
+#parallaxshark {
+    border: solid 4px black;
+    background-image: url(assets/swimmingnew/2016%20blackpool%20sealife%20cropped%20test%201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxsharkfoot {
+    border: solid 4px black;
+    background-image: url(assets/swimmingnew/2016%20blackpool%20sealife%20cropped%20test%201.jpg);/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+
+#parallaxex {
+    border: solid 4px black;
+    background-image: url(assets/survival%20new/sand%20steps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position:center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxexfoot {
+    border: solid 4px black;
+    background-image: url(assets/survival%20new/sand%20steps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position:center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+#parallaxwall {
+    border: solid 4px black;
+    background-image: url(assets/indexnew/wall%20cropped%20from%20old%20profile2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxwallfoot {
+    border: solid 4px black;
+    background-image: url(assets/indexnew/wall%20cropped%20from%20old%20profile2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+
+#parallaxsport {
+    border: solid 4px black;
+    background-image: url(assets/sportsnew/archery-472932_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+
+#parallaxsportfoot {
+    border: solid 4px black;
+    background-image: url(assets/sportsnew/archery-472932_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+    
+#parallaxqualfoot {
+    border: solid 4px black;
+    background-image: url(assets/qualifications/cornwalllandsend.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;  
+}
+#parallaxqual {
+    border: solid 4px black;
+    background-image: url(assets/qualifications/cornwalllandsend.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxgoalfoot {
+    border: solid 4px black;
+    background-image: url(assets/goals/niagara-1590345_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;  
+}
+#parallaxgoal {
+    border: solid 4px black;
+    background-image: url(assets/goals/niagara-1590345_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxach {
+    border: solid 4px black;
+    background-image: url(assets/achievements/cyprus.JPG);
+/* https://pixabay.com/en/balloons-colorful-colourful-1835902/# */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+#parallaxachfoot {
+    border: solid 4px black;
+    background-image: url(assets/achievements/cyprus.JPG);
+/* https://pixabay.com/en/balloons-colorful-colourful-1835902/# */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+
+}
+
+
+#parallaxachlist {
+
+    background-image: url(assets/achievements/cyprus.jpg);
+/* https://pixabay.com/en/balloons-colorful-colourful-1835902/# */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    bottom: 0px;
+}
+.matrix{
+    background-size: cover;
+}
+
+
+
+
+
+
+/*social media buttons in footer*/
+
+.facebook-button, .facebook-button:active  {
+  background: url(assets/footer%20new/1480542790_square-facebook.png) left center no-repeat;
+  background-size: cover;
+  color: black;
+    border: 4px black;
+}
+
+.facebook-button:hover {
+    color: black;
+    text-decoration-color: black;   
+}
+
+.twitter-button, .twitter-button:active {
+  background: url(assets/footer%20new/1480542894_square-twitter.png) left center no-repeat;
+  background-size: cover;
+  color: black;
+  border: 10px black;
+}
+
+.twitter-button:hover {
+    color: black;
+    text-decoration-color: black;   
+    border: 4px black;
+}
+
+.insta-button, .insta-button:active {
+  background: url(assets/footer%20new/1480485896_Instagram.png) left center no-repeat;
+  background-size: cover;
+color: black;
+    border: 4px black;
+}
+
+.insta-button:hover {
+    color: black;
+    text-decoration-color: black; 
+    border: 4px black;
+}
+.youtube-button, .youtube-button:active {
+  background: url(assets/footer%20new/1480485920_youtube.png) left center no-repeat;
+  background-size: cover;
+color: black;
+    border: 4px black;
+}
+.youtube-button:hover {
+    color: black;
+    text-decoration-color: black;
+    border: 4px black;
+}
+
+.github-button, .github-button:active {
+  background: url(assets/footer%20new/github.png) left center no-repeat;
+  background-size: cover;
+  color: black;
+  border: 4px black;
+}
+
+.github-button:hover {
+    color: black;
+    text-decoration-color: black;
+    border: 4px black;
+}
+
+.linkedin-button, .linkedin-button:active {
+  background: url(assets/footer%20new/linkedin.png) left center no-repeat;
+  background-size: cover;
+  color: black;
+  border: 4px black;
+}
+.linked-button:hover {
+    color: black;
+    text-decoration-color: black;
+    border: 4px black;
+}
+
+
+
+
+
+
+/* return to interests button */
+.btn-topbot,.btn-topbot:hover,.btn-topbot:active {
+margin-top: 10px;
+margin-bottom: 10px;
+    border: solid 4px black;
+    background-image: url(assets/swimmingnew/2016%20blackpool%20sealife%20cropped%20test%201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+.btn-topbotex,.btn-topbotex:active ,.btn-topbotex:hover {
+margin-top: 10px;
+margin-bottom: 10px;
+    border: solid 4px black;
+    background-image: url(assets/survival%20new/sand%20steps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+.btn-topbotsport,.btn-topbotsport:active ,.btn-topbotsport:hover {
+margin-top: 10px;
+margin-bottom: 10px;
+    border: solid 4px black;
+    background-image: url(assets/sportsnew/archery-472932_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+.btn-topbotsurv, .btn-topbotsurv:active, .btn-topbotsurv:hover {
+    margin-top: 10px;
+margin-bottom: 10px;
+    border: solid 4px black;
+    background-image: url(assets/survival%20new/du%20cyprus%20dam.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+.maxtop {
+    max-height: 200px;
+    height: 100%;
+}
+
+#activated {
+    background-color: black;
+    color: white;
+    text-decoration-color: white;
+}
+
+#activated:hover {
+    background-color: black;
+    color: white;
+    text-decoration-color: white;
+}
+
+#activated:active {
+    background-color: black;
+    color: white;
+    text-decoration-color: white;
+}
+
+
+/* Parallax Login Page */
+
+.backgroundpl {
+    position: relative;
+    height: 200px;
+    padding-bottom: 500px;
+    background: url(assets/Trial%20Login%20Page/background.jpg);
+    background-size: auto;
+    position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    max-width: 2000px;
+}
+
+.postpl {
+    background-image: url(assets/Trial%20Login%20Page/post.png);
+    position: center;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+    
+.confusedguypl {
+    background-image: url(assets/Trial%20Login%20Page/confusedguy.jpg);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position: right bottom;
+  
+}
+/* Parallax Login Page End */
+    
+    
+    
+    
+    
